@@ -66,16 +66,16 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 import DewmiBot.modules.sql.users_sql as sql
 
 PM_START_TEXT = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm snlhr's rosebot
 An anime - Themed advanced telegram Group management 
 Bot For help You Manage & Protect Your Groups.
 ➼ `{sql.num_users()}` *Users*
 ➼ `{sql.num_chats()}`  *Chats*
-♻️Maintained by [supunma <sz/>](https://t.me/szteambots)
+♻️Maintained by [SNL HR](https://t.me/ytwadda)
 """
 
 HELP_STRINGS = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm snlhr's rosebot
 An anime - Themed advanced telegram Group management
 Bot For help You Manage & Protect Your Groups.
 **General commands**:
@@ -89,7 +89,7 @@ Bot For help You Manage & Protect Your Groups.
 
 DONATE_STRING = """
 ➢ Heya,glad to hear you want to donate !
-➢ You can support the project @supunmabot
+➢ You can support the project @ytwadda
 ➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 ➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
 """
@@ -108,17 +108,17 @@ BUTTONS = (
         ],
         [
             InlineKeyboardButton(
-                text="🗣 Updates", url="https://t.me/szteambots"
+                text="🗣 Updates", url="https://t.me/ytwadda"
             ),
             InlineKeyboardButton(
                 text="👥 Support",
-                url="https://t.me/slbotzone",
+                url="https://t.me/ytwadda",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="➕ Add Me To Your Group ➕",
-                url=f"t.me/szrosebot?startgroup=true",
+                url=f"t.me/ytwadda?startgroup=true",
             )
         ],
     ]
@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "*Promote me as administrator of the group, otherwise I will not be able to work properly*\n Don't forget follow my news channel @szroseupdates.\n\n*New to szrosebot, Touch the below button to for quick setup guide*".format(
+            "*Promote me as administrator of the group, otherwise I will not be able to work properly*\n Don't forget follow my news channel @ytwadda.\n\n*New to szrosebot, Touch the below button to for quick setup guide*".format(
                 uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
@@ -311,7 +311,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "╔═════「   szrosebot   」═════╗\n\nHere Is The Available  Help\n          For The {}   \n\n╚═════「  szrosebot   」═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ".format(
+                "╔═════「   snlhrbot   」═════╗\n\nHere Is The Available  Help\n          For The {}   \n\n╚═════「  snlhrbot   」═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -373,8 +373,8 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f" @szrosebot🇱🇰 - A bot to manage your groups with additional features!"
-            f"\n\n Here's the basic help regarding use of @szrosebot🇱🇰."
+            text=f" @ytwadda - A bot to manage your groups with additional features!"
+            f"\n\n Here's the basic help regarding use of @ytwadda."
             f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
             f"\n\n Report error/bugs click the Button ",
             parse_mode=ParseMode.MARKDOWN,
@@ -383,15 +383,15 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
+                            text="Bᴜɢ'ꜱ🐞", url="t.me/ytwadda"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/szteambots"
+                            text="updates💁‍♀️", url="t.me/ytwadda"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Donate 🤕", url="http://t.me/ytwadda?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
