@@ -9,7 +9,7 @@
 - 💎Ltc coin ``` LhCj3H8abLuSb81B9ojJYpHPkLz6xCYayn```
 - 💎Bit Coin ``` 17fdwXfHcj3Yeu7LrswnQRX15RzSK5bXER ```
 
-## ⚙️ Bot hoster [Sadew Rukshan [ᴄɢꜱ™]](https://t.me/CGSUpdates)
+## ⚙️ Bot hoster [SNL HR]](https://t.me/ytwadda)
 
 <p align="center"> <br>
     <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
@@ -45,7 +45,9 @@
 If you found a database error, follow the steps below
 💡 Warning: Use your bot for your personal use only   
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
+## Created by [SNL HR]](https://t.me/SNLHR)
+
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dc9933/sz-rose-bot) 
 
 ## 🐾Step 
 Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
